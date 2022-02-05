@@ -1,0 +1,205 @@
+
+	Identifier => 
+				Words that define an programatic entity.
+				Anytrhing in Program that identifies something is called as Identifier.
+	
+			E.g. => Keywords, Datatypes, Variable , Array , String , Function, Pointer, Structure etc.
+
+================================================================================================================================
+				
+	Keywords
+				Predefined indenfiers(words) provided by language designers,
+				which are intentionally used for desired purpore.
+				
+				C89 - 27 Keywords + 5 Keywords = 32 Keywords
+				
+				C99 - 32 + 5 = 37
+				
+				C11 - 37 + 7 = 44
+
+=================================================================================================================================
+
+	Datatypes in C
+		
+		A>	Premitive / Preliminary / Predefined / Basic =>				
+				
+				integral   =>  
+								int
+										short int     => 2Byte
+										int           => 4Byte			  Range =>	-32765 to 32764
+										long int      => 4Byte
+										long long int => 8Byte
+								
+								Exa. =>
+									
+									short int ID = 21
+									
+									int Roll_No = 999999999
+									
+									long int AdhaarNo = 78945214782464
+						
+				Floating
+								float        4Bytes
+								
+								double       8Bytes
+								
+								long double  16Bytes
+									
+								Exa =>
+								
+									float Per = 72.16
+							
+									double TurnOver = 654678652.7789
+						
+				Character 
+								char   1Byte		-128 To 127
+								
+								
+								Exa =>
+								
+									char Grade = 'A';
+									
+									char num = '48'
+
+				void 
+				
+		B> 	Derived Datatypes
+		
+				Array
+				
+				String
+				
+				Pointers
+				
+				Functions
+				
+		C>  User Defined Datatypes
+		
+				Structures
+				
+				Union
+				
+				Enum
+				
+				Typedef
+				
+=================================================================================================================================
+
+	DataType Modifiers ->
+	
+				signed 
+				unsigned
+				
+				short 
+				long
+
+=================================================================================================================================
+
+	DataType Qualifiers ->
+	
+					const
+
+=================================================================================================================================
+
+	Variable
+		
+=================================================================================================================================
+		
+	Storage Classes in C ->
+
+					auto
+					register
+					static
+					extern
+					
+=================================================================================================================================
+
+	Formatted I/O Function :
+	
+	printf()
+	
+	
+	scanf()
+	
+	------------------------------------------------------------------------------------------------------------------
+
+	Character I/O Function :
+							Following are few predefined functions to accept & display a character.
+							These are defined in <conio.h> header file.
+
+		getch()
+				getch() accepts a character from input device/keyboard, 
+				but does not echo/display to console/screen/output device.
+
+				It is mostly used to wait for a keypress in program.
+				getch also returns that entered character 
+				we can store it in variable
+		
+		getche()
+				getche() accepts a character from input device/keyboard, 
+				but it echos/displays that character to console/screen/output device.
+
+				It is mostly used to accept single character.
+				getche also returns that entered character 
+				we can store it in variable
+		
+		getchar()
+				getchar() accepts multiple characters (String) from input device/keyboard, 
+				but it echos/displays that character to console/screen/output device & 
+				It returns only 1st character entered in that given string.
+				It stops accepting when enter key pressed on keyboard.
+
+				It is mostly used to accept single character.
+				getchar also returns that entered 1st character 
+				we can store it in variable
+		
+		putch()
+		putchar()
+				putch() , putchar() are the functions to display a single character on output device / Monitor.
+				You can print printable characters or escape sequences behavior using these functions.
+				But keep in mind they can only process single character at a time.
+		
+	------------------------------------------------------------------------------------------------------------------
+		
+	String I/O Functions
+		
+		gets()
+		
+		
+		puts()
+		
+=================================================================================================================================
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
